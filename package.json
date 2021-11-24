@@ -1,0 +1,28 @@
+{
+  "name": "express-session-passport-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./concepts-tutorial/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanContrerasM/express-session-passport-demo.git"
+  },
+  "author": "Alan_Contreras <alanrcontrerasm@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlanContrerasM/express-session-passport-demo/issues"
+  },
+  "homepage": "https://github.com/AlanContrerasM/express-session-passport-demo#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,13 @@
+touch app.js // server.js || index.js whatever
+npm init
+npm i express dotenv cors
+npm i -D nodemon
+//modify package json for start script nodemon
+//create env variables
+//env variables are passed when starting the server like 
+PORT=5004 MYNAME=Alan2 node concepts-tutorial/app.js
+//and we use them inside the app with process.env.MYNAME
+//if we want to load from file we add to app.js at the beginning
+require('dotenv').config();
+//but any variables sent when starting the server will take precedence over the file.
+//add .env* to your gitignore
